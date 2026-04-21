@@ -83,7 +83,8 @@ Email    : ayushn2810@gmail.com
 
 ### 🚀 Featured Projects
 
-#### 🛡️ [Sentinel IDS — Network Intrusion Detection System](https://github.com/ayushn28/nids-intrusion-detection-system)
+#### 🛡️ Sentinel IDS — Network Intrusion Detection System &nbsp; [Code](https://github.com/ayushn28/nids-intrusion-detection-system) · [Live Demo](https://nids-1-v8dl.onrender.com/)
+
 > Real-time network security platform that detects & classifies malicious traffic into **14 attack categories**
 
 - Trained a **Voting Ensemble (RF + LR + Extra Trees)** on **2.8M+ network flows** from CIC-IDS 2017
@@ -96,7 +97,8 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🛒 [Full-Stack E-Commerce Platform](https://github.com/ayushn28/Ecommerce-Forever)
+#### 🛒 Full-Stack E-Commerce Platform &nbsp; [Code](https://github.com/ayushn28/Ecommerce-Forever) · [Live Demo](https://ecommerce-frontend-nu-seven.vercel.app/)
+
 > Production-grade shopping platform with dual payment gateway integration
 
 - JWT auth, role-based access control, 20+ product catalog, size-based cart, multi-state order tracking
@@ -107,7 +109,8 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🎨 [Orchids — AI Interior Cost Estimator](https://github.com/ayushn28/orchids-ai-interior-design-cost-estimator) *(Freelance)*
+#### 🎨 Orchids — AI Interior Cost Estimator *(Freelance)* &nbsp; [Code](https://github.com/ayushn28/orchids-ai-interior-design-cost-estimator)
+
 > Full-stack client project — AI-powered real-time pricing for interior design configurations
 
 - 3+ BHK layout configs across 10+ upgrade options; **real-time dynamic pricing in milliseconds**
@@ -122,11 +125,23 @@ Email    : ayushn2810@gmail.com
 
 <div align="center">
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ayushn28&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+
+<br/>
+
 ![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayushn28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayushn28&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=ayushn28&theme=tokyonight&hide_border=true)
+
+<br/>
+
+[![Ayush's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ayushn28&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<br/>
+
+![Snake animation](https://raw.githubusercontent.com/ayushn28/ayushn28/output/github-contribution-grid-snake.svg)
 
 </div>
 
