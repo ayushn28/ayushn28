@@ -125,22 +125,29 @@ Email    : ayushn2810@gmail.com
 
 <div align="center">
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=ayushn28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=ayushn28&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushn28&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-</p>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=ayushn28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+    </td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=ayushn28&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushn28&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-[![Ayush's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ayushn28&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ayush's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ayushn28&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <br/>
 
-![Snake animation](https://raw.githubusercontent.com/ayushn28/ayushn28/output/github-contribution-grid-snake.svg)
+<img src="https://raw.githubusercontent.com/ayushn28/ayushn28/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 </div>
 
