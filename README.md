@@ -145,10 +145,6 @@ Email    : ayushn2810@gmail.com
 
 [![Ayush's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ayushn28&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/ayushn28/ayushn28/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
 </div>
 
 ---
