@@ -109,7 +109,7 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🎨 Orchids — AI Interior Cost Estimator *(Freelance)* &nbsp; [Code](https://github.com/ayushn28/orchids-ai-interior-design-cost-estimator)
+#### 🎨 AI Interior Cost Estimator *(Freelance)* &nbsp; [Code](https://github.com/ayushn28/orchids-ai-interior-design-cost-estimator)
 
 > Full-stack client project — AI-powered real-time pricing for interior design configurations
 
