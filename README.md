@@ -125,15 +125,14 @@ Email    : ayushn2810@gmail.com
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ayushn28&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=ayushn28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=ayushn28&theme=tokyonight&hide_border=true" width="48%" />
+</p>
 
-<br/>
-
-![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayushn28&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayushn28&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=ayushn28&theme=tokyonight&hide_border=true)
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushn28&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</p>
 
 <br/>
 
