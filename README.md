@@ -24,12 +24,12 @@ Email    : ayushn2810@gmail.com
 ```
 
 - 🛡️ Built **Sentinel IDS** — classifies 500K+ network flows in <2s, 96.85% accuracy, 0.994 AUC-ROC
-- 🧠 Building **Mental Health Triage** — React + Express/MongoDB app with dedicated ML and RAG services
-- 🏃 Built **Kreedify Sports** — sports coaching platform for residential complexes (React + Vite)
+- 🧠 Built an **AI-Powered Mental Health Triage Platform** — 4-service microservices system with NLP, SHAP explainability and a multi-agent RAG assistant
 - 📊 Completed an **SAP Business Data Cloud** capstone — O2C sales analytics pipeline + KPI dashboard
 - 🛒 Deployed full-stack e-commerce with **Stripe + Razorpay** dual payment gateway
-- 💼 Freelanced — delivered an AI interior cost estimation platform with **Twilio OTP + JWT auth**
-- ☁️ Certified: **Microsoft Azure AZ-900** · **HackerRank Java**
+- 💼 Freelanced at **Interio World** — delivered an interior cost estimation platform with **Twilio OTP + JWT auth**
+- ☁️ Certified: **Microsoft Azure AZ-900** · **IBM Machine Learning** · **HackerRank Java**
+- 🎹 Outside code: sports, piano, and a background in the **National Cadet Corps (NCC)**
 
 ---
 
@@ -49,7 +49,6 @@ Email    : ayushn2810@gmail.com
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 ![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -70,6 +69,12 @@ Email    : ayushn2810@gmail.com
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP_Explainability-FF6F61?style=flat-square)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![FAISS](https://img.shields.io/badge/FAISS_RAG-0467DF?style=flat-square&logo=meta&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_LLaMA3-F55036?style=flat-square)
 ![SAP](https://img.shields.io/badge/SAP_Datasphere-0FAAFF?style=flat-square&logo=sap&logoColor=white)
 
 **Database & Cloud**
@@ -88,6 +93,7 @@ Email    : ayushn2810@gmail.com
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ---
 
@@ -107,27 +113,16 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🧠 Mental Health Triage &nbsp; [Code](https://github.com/ayushn28/mental-health-triage)
+#### 🧠 AI-Powered Mental Health Triage Platform &nbsp; [Code](https://github.com/ayushn28/mental-health-triage)
 
-> Multi-service triage platform with a React dashboard, secure API, and separate ML and RAG services
+> Clinical triage system that scores distress severity, tracks mood over time, and escalates deterioration to supervisors
 
-- **React client** with charts and dashboards (Recharts, React Router, Axios)
-- **Express + MongoDB API** with JWT authentication, bcrypt password hashing, and request validation
-- Split into **four services** — `client`, `server`, `ml-service`, `rag-service` — for clean separation of concerns
+- Architected a **4-service microservices system** (React, Node.js/Express, FastAPI, RAG agent) with **20+ REST endpoints**, JWT auth, and **RBAC** (counselor / supervisor / admin)
+- Built a **spaCy NLP pipeline** extracting emotion, risk, and cognitive-distortion features; trained a **Gradient Boosting** classifier for 4-class distress severity with **SHAP** explainability
+- Developed a **CRF sequence model** to track mood trajectory across sessions, auto-triggering supervisor escalation alerts on deterioration
+- Implemented a **multi-agent RAG system** (FAISS + Groq LLaMA3) grounded in DSM-5/CBT literature and session history; role-aware React dashboard with analytics and SHAP visualizations
 
-`React` `Node.js` `Express` `MongoDB` `JWT` `Recharts` `RAG` `ML`
-
----
-
-#### 🏃 Kreedify Sports &nbsp; [Code](https://github.com/ayushn28/kreedify-sports)
-
-> Sports coaching platform for residential complexes
-
-- Responsive multi-page **React (Vite)** app with client-side routing
-- Styled with **Tailwind CSS**, animated with **Framer Motion**
-- Deployed on **Vercel**
-
-`React (Vite)` `Tailwind CSS` `Framer Motion` `React Router` `Vercel`
+`React` `Node.js` `Express` `FastAPI` `MongoDB` `spaCy` `scikit-learn` `SHAP` `FAISS` `LLaMA3` `JWT` `RBAC`
 
 ---
 
@@ -156,13 +151,14 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🎨 AI Interior Cost Estimator *(Freelance)*
+#### 🎨 AI Interior Cost Estimator *(Freelance · Interio World · Jan–Feb 2026)*
 
-> Full-stack client project — AI-powered real-time pricing for interior design configurations
+> Full-stack client project — real-time pricing for interior design configurations
 
 - 3+ BHK layout configs across 10+ upgrade options; **real-time dynamic pricing in milliseconds**
-- **Twilio OTP** phone verification + JWT auth for 100% verified user onboarding
-- 10+ REST API endpoints (MVC); admin dashboard; deployed on Vercel with MongoDB Atlas
+- **Twilio OTP** phone verification + JWT auth for 100% verified user onboarding and secure access to protected routes
+- RESTful backend (MVC) with 10+ endpoints for pricing, user management and estimates; admin dashboard for user data and estimate records
+- Deployed on Vercel with MongoDB Atlas
 
 `React` `Node.js` `Express` `MongoDB Atlas` `JWT` `Twilio` `Vercel`
 
@@ -213,4 +209,5 @@ Email    : ayushn2810@gmail.com
 | Badge | Certification |
 |---|---|
 | ☁️ | **Microsoft Azure Fundamentals — AZ-900** · Cloud concepts, Azure services, security & pricing |
+| 🤖 | **IBM Certified: Machine Learning** · Supervised/unsupervised learning, model evaluation, scikit-learn workflows |
 | ☕ | **HackerRank Java** · OOP, problem-solving, data structures |
