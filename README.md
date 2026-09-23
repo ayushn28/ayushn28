@@ -17,13 +17,16 @@
 
 ```yaml
 Name     : Ayush Nair
-College  : KIIT University, Bhubaneswar  |  B.Tech CSE  |  2023–2027  |  CGPA: 7.95
+College  : KIIT University, Bhubaneswar  |  B.Tech CSE  |  2023–2027  |  CGPA: 8.23
 Focus    : Full Stack Engineering  +  ML Engineering
 Status   : Actively seeking internships
 Email    : ayushn2810@gmail.com
 ```
 
 - 🛡️ Built **Sentinel IDS** — classifies 500K+ network flows in <2s, 96.85% accuracy, 0.994 AUC-ROC
+- 🧠 Building **Mental Health Triage** — React + Express/MongoDB app with dedicated ML and RAG services
+- 🏃 Built **Kreedify Sports** — sports coaching platform for residential complexes (React + Vite)
+- 📊 Completed an **SAP Business Data Cloud** capstone — O2C sales analytics pipeline + KPI dashboard
 - 🛒 Deployed full-stack e-commerce with **Stripe + Razorpay** dual payment gateway
 - 💼 Freelanced — delivered an AI interior cost estimation platform with **Twilio OTP + JWT auth**
 - ☁️ Certified: **Microsoft Azure AZ-900** · **HackerRank Java**
@@ -39,12 +42,16 @@ Email    : ayushn2810@gmail.com
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
@@ -55,6 +62,7 @@ Email    : ayushn2810@gmail.com
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio)
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 **ML / Data**
 
@@ -62,6 +70,7 @@ Email    : ayushn2810@gmail.com
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP_Explainability-FF6F61?style=flat-square)
+![SAP](https://img.shields.io/badge/SAP_Datasphere-0FAAFF?style=flat-square&logo=sap&logoColor=white)
 
 **Database & Cloud**
 
@@ -78,6 +87,7 @@ Email    : ayushn2810@gmail.com
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 ---
 
@@ -97,6 +107,43 @@ Email    : ayushn2810@gmail.com
 
 ---
 
+#### 🧠 Mental Health Triage &nbsp; [Code](https://github.com/ayushn28/mental-health-triage)
+
+> Multi-service triage platform with a React dashboard, secure API, and separate ML and RAG services
+
+- **React client** with charts and dashboards (Recharts, React Router, Axios)
+- **Express + MongoDB API** with JWT authentication, bcrypt password hashing, and request validation
+- Split into **four services** — `client`, `server`, `ml-service`, `rag-service` — for clean separation of concerns
+
+`React` `Node.js` `Express` `MongoDB` `JWT` `Recharts` `RAG` `ML`
+
+---
+
+#### 🏃 Kreedify Sports &nbsp; [Code](https://github.com/ayushn28/kreedify-sports)
+
+> Sports coaching platform for residential complexes
+
+- Responsive multi-page **React (Vite)** app with client-side routing
+- Styled with **Tailwind CSS**, animated with **Framer Motion**
+- Deployed on **Vercel**
+
+`React (Vite)` `Tailwind CSS` `Framer Motion` `React Router` `Vercel`
+
+---
+
+#### 📊 SAP Business Data Cloud — Sales Revenue Analytics &nbsp; [Code](https://github.com/ayushn28/sap-bdc-capstone)
+
+> End-to-end Order-to-Cash analytics: S/4HANA extraction → Datasphere star schema → KPI dashboard
+
+- Python + pandas **ETL pipeline** (extract → transform → load) over SD-module data (VBAK, VBAP, KNA1, MARA)
+- **Star schema** (FACT_SALES + DIM_CUSTOMER + DIM_PRODUCT) with **6 SQL analytical views** for KPIs
+- Interactive SAC-style **Chart.js dashboard**; **17 pytest unit tests** on the transform layer
+- FY 2024 pipeline output: ₹79.76 Cr revenue across 2,459 orders
+
+`Python` `pandas` `SAP Datasphere` `SQL` `Chart.js` `pytest`
+
+---
+
 #### 🛒 Full-Stack E-Commerce Platform &nbsp; [Code](https://github.com/ayushn28/Ecommerce-Forever) · [Live Demo](https://ecommerce-frontend-nu-seven.vercel.app/)
 
 > Production-grade shopping platform with dual payment gateway integration
@@ -109,7 +156,7 @@ Email    : ayushn2810@gmail.com
 
 ---
 
-#### 🎨 AI Interior Cost Estimator *(Freelance)* &nbsp; [Code](https://github.com/ayushn28/orchids-ai-interior-design-cost-estimator)
+#### 🎨 AI Interior Cost Estimator *(Freelance)*
 
 > Full-stack client project — AI-powered real-time pricing for interior design configurations
 
@@ -118,6 +165,18 @@ Email    : ayushn2810@gmail.com
 - 10+ REST API endpoints (MVC); admin dashboard; deployed on Vercel with MongoDB Atlas
 
 `React` `Node.js` `Express` `MongoDB Atlas` `JWT` `Twilio` `Vercel`
+
+---
+
+### 🧪 More Builds
+
+| Project | What it is | Stack |
+|---|---|---|
+| [PasswordManager](https://github.com/ayushn28/PasswordManager) | Password manager with a React UI and Express/MongoDB backend | React (Vite), Tailwind, Express, MongoDB |
+| [Kanban-Component](https://github.com/ayushn28/Kanban-Component) | Reusable kanban board component, documented in Storybook | React, TypeScript, Tailwind, Storybook |
+| [login-backend](https://github.com/ayushn28/login-backend) | Auth API with hashed passwords | Node.js, Express, Mongoose, bcrypt |
+| [azure-storage-project](https://github.com/ayushn28/azure-storage-project) | Azure Storage account, blob upload, and public access config | Azure Portal |
+| [azure-network-access-lab](https://github.com/ayushn28/azure-network-access-lab) | Configuring Azure VM network access | Azure |
 
 ---
 
